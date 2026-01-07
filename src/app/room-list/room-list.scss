@@ -1,0 +1,25 @@
+.card-title {
+  font-weight: 600;
+}
+
+.badge {
+  width: fit-content;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+}
